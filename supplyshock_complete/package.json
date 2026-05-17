@@ -1,0 +1,25 @@
+{
+  "name": "supplyshock-predictor",
+  "version": "1.0.0",
+  "description": "Multi-agent supply chain risk intelligence system",
+  "main": "backend/server.js",
+  "scripts": {
+    "start":  "node backend/server.js",
+    "dev":    "nodemon backend/server.js",
+    "test":   "node agents/coordinatorAgent.js"
+  },
+  "dependencies": {
+    "cors":    "^2.8.5",
+    "dotenv":  "^16.4.5",
+    "express": "^4.18.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["supply-chain", "risk", "ai-agents", "logistics"],
+  "author": "SupplyShock Team",
+  "license": "MIT"
+}
